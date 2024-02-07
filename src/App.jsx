@@ -1,8 +1,10 @@
 import styles from "./App.module.css";
+import Contact from "./components/Contact/Contact";
 import Experience from "./components/Experience/Experience";
 import Hero from "./components/Hero";
 import NavBar from "./components/NavBar";
 import About from "./components/about/About";
+import Project from "./components/pro_ject/project";
 
 function App() {
   return (
@@ -10,7 +12,9 @@ function App() {
       <NavBar />
       <Hero />
       <About />
-      <Experience></Experience>
+      <Experience />
+      <Project />
+      <Contact />
     </div>
   );
 }
