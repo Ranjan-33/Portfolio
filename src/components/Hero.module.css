@@ -108,4 +108,10 @@
   .content {
     align-items: center;
   }
+  .heroImg {
+    width: 250px;
+    height: 300px;
+    border-radius: 50%;
+    filter: drop-shadow(10px 20px 30px);
+  }
 }
