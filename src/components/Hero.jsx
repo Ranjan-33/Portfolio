@@ -6,10 +6,10 @@ const Hero = () => {
   return (
     <section className={styles.container}>
       <div className={styles.content}>
-        <h1 className={styles.title}>Hi,I'm Ranjan kumar </h1>
+        <h1 className={styles.title}>Hi,I'm Ranjan Verma </h1>
         <p className={styles.description}>
           I'm a full-Stack developer with 3 years of Experience with React and
-          Nodejs . reach out if you'd like to learn more!
+          Nodejs . reach out if you'd like to learn more!!!
         </p>
         <a href="mailto:myemail@gmail.com" className={styles.contactBtn}>
           Contact me{" "}
