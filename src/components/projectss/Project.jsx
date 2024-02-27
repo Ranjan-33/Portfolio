@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./project.module.css";
+import styles from "./Project.module.css";
 import project from "../../data/project.json";
 import ProjectCard from "./ProjectCard";
 const Project = () => {
