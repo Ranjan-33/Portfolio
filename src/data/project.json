@@ -13,7 +13,7 @@
     "description": "This is a project made to learn the latest languages by building an app.",
     "skills": ["HTML", "CSS", "javascript"],
     "demo": "https://www.example.com",
-    "source": "https://github.com/Ranjan-33/QR-generator"
+    "source": "https://github.com/Ranjan-33"
   },
   {
     "title": "Modern Web ",
@@ -21,6 +21,6 @@
     "description": "This is a project made to learn the latest languages by building an app.",
     "skills": ["React", "Javascript", "HTML"],
     "demo": "https://www.example.com",
-    "source": "https://github.com/Ranjan-33/modern_web_clone"
+    "source": "https://github.com/Ranjan-33"
   }
 ]
