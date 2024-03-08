@@ -13,8 +13,17 @@ const Hero = () => {
           collaborative, innovative projects. Let's connect and build the future
           together! 🚀
         </p>
-        <a href="mailto:testrk33@gmail.com" className={styles.contactBtn}>
-          Contact me{" "}
+        {/* <a href="mailto:testrk33@gmail.com" className={styles.contactBtn}>
+          Contact me
+        </a> */}
+
+        <a
+          href="./assets/hero/resume.pdf"
+          download="resume.pdf"
+          className={styles.contactBtn}
+        >
+          Download Resume
+          {/* <button className={styles.contactBtn}> Download Resume</button> */}
         </a>
       </div>
       <img
