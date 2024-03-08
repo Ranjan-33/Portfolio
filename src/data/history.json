@@ -1,29 +1,30 @@
 [
   {
-    "role": "Software Engineer",
-    "organisation": "Google",
-    "startDate": "Sept, 2022",
-    "endDate": "Present",
-    "experiences": ["Worked on Google Maps", "Reduced load times by 50%"],
-    "imageSrc": "history/google.png"
-  },
-  {
-    "role": "UI Designer",
-    "organisation": "Mirosoft",
-    "startDate": "Aug, 2021",
-    "endDate": "Aug, 2022",
-    "experiences": ["Worked on Windows 11", "Designed the control panel"],
-    "imageSrc": "history/microsoft.png"
-  },
-  {
-    "role": "SWE Intern",
-    "organisation": "Netflix",
-    "startDate": "Apr, 2020",
-    "endDate": "Jun, 2020",
+    "title": "Frontend ",
+    "organisation": "Tools",
+    "toolstype": " Html ,css, js,React ",
     "experiences": [
-      "Worked on component library",
-      "Helped create UI components"
+      "A frontend tool is software designed to optimize and streamline the development of user interfaces",
+      "optimizing the visual aspects of websites or web applications"
     ],
-    "imageSrc": "history/netflix.png"
+    "imageSrc": "history/fd2.png"
+  },
+  {
+    "title": "Problem Solving  ",
+    "organisation": "",
+    "toolstype": " C ,C++, java ,python ",
+    "experiences": [
+      "Problem-solving tools are software or resources designed to systematically address and resolve challenges in various domains"
+    ],
+    "imageSrc": "history/problem-solving.png"
+  },
+  {
+    "title": "Database ",
+    "organisation": "",
+    "toolstype": " Mysql ",
+    "experiences": [
+      "Databases are organized repositories for storing and managing data, essential for efficient data handling in applications and systems."
+    ],
+    "imageSrc": "history/database.png"
   }
 ]

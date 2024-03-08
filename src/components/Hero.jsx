@@ -8,10 +8,12 @@ const Hero = () => {
       <div className={styles.content}>
         <h1 className={styles.title}>Hi,I'm Ranjan Verma </h1>
         <p className={styles.description}>
-          I'm a full-Stack developer with 3 years of Experience with React and
-          Nodejs . reach out if you'd like to learn more..!!!
+          Passionate BE.CSE student adept in crafting impactful solutions with
+          JavaScript & React. Ready to leverage programming skills for
+          collaborative, innovative projects. Let's connect and build the future
+          together! 🚀
         </p>
-        <a href="mailto:myemail@gmail.com" className={styles.contactBtn}>
+        <a href="mailto:testrk33@gmail.com" className={styles.contactBtn}>
           Contact me{" "}
         </a>
       </div>

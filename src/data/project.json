@@ -1,16 +1,16 @@
 [
   {
-    "title": "Project A",
-    "imageSrc": "project/project1.jpg",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
+    "title": "Employee management System",
+    "imageSrc": "project/employee.png",
+    "description": "This is a project made to learn the about the Database by building an Website .",
+    "skills": ["React", "Node", "Mysql"],
     "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "source": "https://github.com/Ranjan-33"
   },
   {
     "title": " QR generator ",
     "imageSrc": "project/QR.jpeg",
-    "description": "This is a project made to learn the latest languages by building an app.",
+    "description": "This is a project made to learn the latest languages  by building an app.",
     "skills": ["HTML", "CSS", "javascript"],
     "demo": "https://www.example.com",
     "source": "https://github.com/Ranjan-33/QR-generator"

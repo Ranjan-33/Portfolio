@@ -17,29 +17,39 @@ const About = () => {
           <li className={styles.aboutItem}>
             <img src={getImageUrl("about/cursorIcon.png")} alt="cursor icon" />
             <div className={styles.aboutItemText}>
-              <h3>Frontend developer </h3>
+              <h3>UI developer </h3>
+              <br></br>
               <p>
-                i'm a frontend developer with Experience in building and
-                optimized sites
+                Crafting interfaces that transcend aesthetics, prioritizing
+                seamless user experiences through simplicity, accessibility, and
+                functionality.
+              </p>
+            </div>
+          </li>
+          <li className={styles.aboutItem}>
+            <img src={getImageUrl("about/uiIcon.png")} alt="cursor icon" />
+
+            <div className={styles.aboutItemText}>
+              <h3>Frontend developer </h3>
+              <br></br>
+              <p>
+                i have designed multiple landing pages , website Transforming
+                design into interactive web applications using HTML,
+                CSS,JavaScript and React.Committed to staying current with web
+                development trends for cutting-edge and user-friendly projects
               </p>
             </div>
           </li>
           <li className={styles.aboutItem}>
             <img src={getImageUrl("about/serverIcon.png")} alt=" server icon" />
             <div className={styles.aboutItemText}>
-              <h3>Backend developer </h3>
+              <h3> Versatile Skills </h3>
+              <br></br>
               <p>
-                i'm Experience developing fast and optimized back-end sysytem
-                APIs
-              </p>
-            </div>
-          </li>
-          <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/uiIcon.png")} alt="cursor icon" />
-            <div className={styles.aboutItemText}>
-              <h3>Frontend developer </h3>
-              <p>
-                i have designed multiple landing pages and have sysytem as well
+                i Beyond UI and frontend development, I possess a foundational
+                grasp of Java, C, C++, Python, and MySQL. This enables seamless
+                collaboration with backend developers, contributing across the
+                full development lifecycle.
               </p>
             </div>
           </li>

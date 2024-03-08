@@ -6,7 +6,8 @@ import { getImageUrl } from "../../utils";
 const Experience = () => {
   return (
     <section className={styles.container} id="experience">
-      <h2 className={styles.title}>Experience</h2>
+      <h2 className={styles.title}>SKILLS</h2>
+      <br></br>
       <div className={styles.content}>
         <div className={styles.skills}>
           {skills.map((skill, id) => {
@@ -20,6 +21,7 @@ const Experience = () => {
             );
           })}
         </div>
+
         <ul className={styles.history}>
           {history.map((historyItem, id) => {
             return (
@@ -29,8 +31,8 @@ const Experience = () => {
                   alt={`${historyItem.organisation}logo`}
                 />
                 <div className={styles.historyItemDetails}>
-                  <h3>{`${historyItem.role},${historyItem.organisation}`}</h3>
-                  <p>{`${historyItem.startDate}-${historyItem.endDate}`} </p>
+                  <h3>{`${historyItem.title}${historyItem.organisation}`}</h3>
+                  <p>{`${historyItem.toolstype}`} </p>
                   <ul>
                     {historyItem.experiences.map((experience, id) => {
                       return <li key={id}>{experience}</li>;

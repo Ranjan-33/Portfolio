@@ -12,18 +12,22 @@ const Contact = () => {
       <ul className={styles.links}>
         <li className={styles.link}>
           <img src={getImageUrl("contact/emailIcon.png")} alt={"emil"} />
-          <a href="testrk33@gmail.com">testrk33@gmail.com</a>
+          <a href="mailto:testrk33@gmail.com">Ranjan kumar verma</a>
         </li>
         <li className={styles.link}>
           <img src={getImageUrl("contact/linkedinIcon.png")} alt={"linkedin"} />
           <a href="https://www.linkedin.com/in/ranjan-kumar-verma-5aa805271/">
             {/* Ranjan kumar verma */}
-            linkedin.com/mylinkedin
+            linkedin/Ranjan
           </a>
         </li>
         <li className={styles.link}>
           <img src={getImageUrl("contact/githubIcon.png")} alt={"github"} />
-          <a href="https://github.com/Ranjan-33"> github.com/mygithub</a>
+          <a href="https://github.com/Ranjan-33"> github/Ranjan-33</a>
+        </li>
+        <li className={styles.link}>
+          <img src={getImageUrl("contact/in.png")} alt={"insta"} />
+          <a href="https://instagram.com/Ranjan__kr__verma_33">Insta/Ranjan</a>
         </li>
         {/* we can add more contact items */}
         {/* <li>
