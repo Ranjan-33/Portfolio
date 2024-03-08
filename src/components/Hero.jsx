@@ -3,6 +3,14 @@ import { getImageUrl } from "../utils";
 import styles from "./Hero.module.css";
 
 const Hero = () => {
+  const handleDownload = () => {
+    const resumeUrl = "./assets/hero/resume.pdf"; // Adjust the path accordingly
+    const link = document.createElement("a");
+    link.href = resumeUrl;
+    link.download = "Rkresume.pdf";
+    link.click();
+  };
+
   return (
     <section className={styles.container}>
       <div className={styles.content}>
@@ -13,6 +21,7 @@ const Hero = () => {
           collaborative, innovative projects. Let's connect and build the future
           together! 🚀
         </p>
+        <button onClick={handleDownload}>Download Resume</button>
 
         <a
           href="./assets/hero/resume.pdf"
