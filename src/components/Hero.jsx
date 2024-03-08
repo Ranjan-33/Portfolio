@@ -21,15 +21,17 @@ const Hero = () => {
           collaborative, innovative projects. Let's connect and build the future
           together! 🚀
         </p>
-        <button onClick={handleDownload}>Download Resume</button>
+        <button className={styles.contactBtn} onClick={handleDownload}>
+          Download Resume
+        </button>
 
-        <a
+        {/* <a
           href="./assets/hero/resume.pdf"
           download="resume.pdf"
           className={styles.contactBtn}
         >
           Download Resume
-        </a>
+        </a> */}
       </div>
       <img
         src={getImageUrl("hero/img1.jpg")}
