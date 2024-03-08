@@ -2,7 +2,7 @@
   {
     "title": "Employee management System",
     "imageSrc": "project/employee.png",
-    "description": "This is a project made to learn the about the Database by building an Website .",
+    "description": "This is a project made to learn about the Database by building an Website .",
     "skills": ["React", "Node", "Mysql"],
     "demo": "https://www.example.com",
     "source": "https://github.com/Ranjan-33"
