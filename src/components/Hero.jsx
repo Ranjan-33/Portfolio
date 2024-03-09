@@ -4,7 +4,7 @@ import styles from "./Hero.module.css";
 
 const Hero = () => {
   const handleDownload = () => {
-    const resumeUrl = "./assets/hero/resume.pdf"; // Adjust the path
+    const resumeUrl = "../assets/hero/resume.pdf"; // Adjust the path
     const link = document.createElement("a");
     link.href = resumeUrl;
     link.download = "Rkresume.pdf";
