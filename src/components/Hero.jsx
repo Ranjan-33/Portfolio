@@ -1,15 +1,16 @@
 import React from "react";
 import { getImageUrl } from "../utils";
 import styles from "./Hero.module.css";
+import Resume from "../../assets/hero/resume.pdf";
 
 const Hero = () => {
-  const handleDownload = () => {
-    const resumeUrl = "../../public/resume.pdf"; // Adjust the path
-    const link = document.createElement("a");
-    link.href = resumeUrl;
-    link.download = "Rkresume.pdf";
-    link.click();
-  };
+  // const handleDownload = () => {
+  //   const resumeUrl = "../../public/resume.pdf"; // Adjust the path
+  //   const link = document.createElement("a");
+  //   link.href = resumeUrl;
+  //   link.download = "Rkresume.pdf";
+  //   link.click();
+  // };
 
   return (
     <section className={styles.container}>
@@ -21,17 +22,13 @@ const Hero = () => {
           collaborative, innovative projects. Let's connect and build the future
           together! 🚀
         </p>
-        <button className={styles.contactBtn} onClick={handleDownload}>
+        {/* <button className={styles.contactBtn} onClick={handleDownload}>
           Download Resume
-        </button>
+        </button> */}
 
-        {/* <a
-          href="./assets/hero/resume.pdf"
-          download="resume.pdf"
-          className={styles.contactBtn}
-        >
+        <a href={Resume} download="resume.pdf" className={styles.contactBtn}>
           Download Resume
-        </a> */}
+        </a>
       </div>
       <img
         src={getImageUrl("hero/img1.jpg")}
