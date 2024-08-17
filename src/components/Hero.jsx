@@ -2,7 +2,8 @@ import React from "react";
 import { getImageUrl } from "../utils";
 import styles from "./Hero.module.css";
 import Resume from "../../assets/hero/resume.pdf";
-
+import Typist from "react-typist";
+import TypingEffect from "react-typing-effect";
 const Hero = () => {
   // const handleDownload = () => {
   //   const resumeUrl = "../../public/resume.pdf"; // Adjust the path
@@ -15,7 +16,15 @@ const Hero = () => {
   return (
     <section className={styles.container}>
       <div className={styles.content}>
-        <h1 className={styles.title}>Hi,I'm Ranjan Verma </h1>
+        <h1 className={styles.title}>
+          Hi, I'm{" "}
+          <TypingEffect
+            text={["Ranjan verma "]}
+            speed={200} // Adjust speed if needed
+            eraseSpeed={50} // Speed at which text is erased
+            cursorRenderer={(cursor) => <h3>{cursor}</h3>} // Custom cursor if needed
+          />
+        </h1>
         <p className={styles.description}>
           Passionate BE.CSE student adept in crafting impactful solutions with
           JavaScript & React. Ready to leverage programming skills for
