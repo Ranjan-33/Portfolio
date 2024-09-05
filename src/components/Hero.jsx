@@ -2,6 +2,7 @@ import React from "react";
 import { getImageUrl } from "../utils";
 import styles from "./Hero.module.css";
 import Resume from "../../assets/hero/resume.pdf";
+import RanjanResume from "../../assets/Ranjan_Resume.pdf";
 import Typist from "react-typist";
 import TypingEffect from "react-typing-effect";
 const Hero = () => {
@@ -35,7 +36,11 @@ const Hero = () => {
           Download Resume
         </button> */}
 
-        <a href={Resume} download="resume.pdf" className={styles.contactBtn}>
+        <a
+          href={Resume}
+          download="Ranjan_Resume.pdf"
+          className={styles.contactBtn}
+        >
           Download Resume
         </a>
       </div>
