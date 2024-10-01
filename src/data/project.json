@@ -1,6 +1,6 @@
 [
   {
-    "title": "chat application",
+    "title": "Chat application",
     "imageSrc": "project/loginChatApp.png",
     "description": "A real-time chat application built with React and Firebase, enabling instant messaging and secure data storage in the cloud.",
     "skills": ["React", "Firebase"],
