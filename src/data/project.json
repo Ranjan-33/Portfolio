@@ -1,5 +1,13 @@
 [
   {
+    "title": "Expria-Gemini",
+    "imageSrc": "project/expria-g.png",
+    "description": "Expria-Gemini is a replica of the Gemini platform, designed to emulate its core features and enhance user interaction and functionalit.",
+    "skills": ["React", "Gemini API"],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/Ranjan-33/Expria-Gemini"
+  },
+  {
     "title": "Chat application",
     "imageSrc": "project/loginChatApp.png",
     "description": "A real-time chat application built with React and Firebase, enabling instant messaging and secure data storage in the cloud.",

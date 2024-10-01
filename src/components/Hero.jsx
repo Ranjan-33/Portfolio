@@ -1,8 +1,8 @@
 import React from "react";
 import { getImageUrl } from "../utils";
 import styles from "./Hero.module.css";
-import Resume from "../../assets/hero/resume.pdf";
-import RanjanResume from "../../assets/Ranjan_Resume____.pdf";
+import Resume from "../../assets/hero/Ranjan_Resume____.pdf";
+// import RanjanResume from "../../assets/Ranjan_Resume____.pdf";
 const Hero = () => {
   // const handleDownload = () => {
   //   const resumeUrl = "../../public/resume.pdf"; // Adjust the path
@@ -19,10 +19,9 @@ const Hero = () => {
           Hi, I'm Ranjan Verma <br />
         </h1>
         <p className={styles.description}>
-          Passionate BE.CSE student adept in crafting impactful solutions with
-          JavaScript & React. Ready to leverage programming skills for
-          collaborative, innovative projects. Let's connect and build the future
-          together! 🚀
+          Passionate Computer Science student skilled in JavaScript and React,
+          eager to contribute to innovative projects. Let's connect and create
+          something impactful!🚀
         </p>
         {/* <button className={styles.contactBtn} onClick={handleDownload}>
           Download Resume
@@ -30,7 +29,7 @@ const Hero = () => {
 
         <a
           href={Resume}
-          download="Ranjan_Resume____.pdf"
+          download="Ranjan_Resume.pdf"
           className={styles.contactBtn}
         >
           Download Resume

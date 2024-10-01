@@ -12,7 +12,7 @@
   {
     "title": "Problem Solving  ",
     "organisation": "",
-    "toolstype": " C ,C++, java ,python ",
+    "toolstype": " javascript, C ,C++, java ,python ",
     "experiences": [
       "Problem-solving tools are software or resources designed to systematically address and resolve challenges in various domains"
     ],
@@ -21,7 +21,7 @@
   {
     "title": "Database ",
     "organisation": "",
-    "toolstype": " Mysql ",
+    "toolstype": " Mysql ,firebase ",
     "experiences": [
       "Databases are organized repositories for storing and managing data, essential for efficient data handling in applications and systems."
     ],

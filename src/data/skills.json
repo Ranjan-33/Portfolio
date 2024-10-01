@@ -26,5 +26,9 @@
   {
     "title": "Mysql",
     "imageSrc": "skills/mysql2.png"
+  },
+  {
+    "title": "Tailwind CSS",
+    "imageSrc": "skills/tailwind.png"
   }
 ]
