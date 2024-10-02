@@ -1,0 +1,116 @@
+/* ContactForm.module.css */
+
+.container {
+  position: relative;
+  padding: 50px;
+  margin-top: 50px;
+  margin-left: 30%;
+  margin-right: 30%;
+  border-radius: 15px;
+  /* z-index: 1; */
+
+  /* Background color and gradient */
+  background-color: rgba(12, 12, 12, 0.378);
+  /* background: linear-gradient(90deg, #19376d 0%, rgba(100, 55, 109, 0) 100%); */
+  text-align: center;
+}
+
+.title {
+  color: #fff;
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  position: relative;
+  padding: 50px;
+  margin-top: 50px;
+  margin-left: 30%;
+  margin-right: 30%;
+  border-radius: 15px;
+  background-color: rgba(12, 12, 12, 0.378);
+  text-align: center;
+
+  border-radius: solid white 10px;
+  backdrop-filter: blur(10px); /* Adds a glassmorphism effect */
+}
+
+.formGroup {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+label {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 5px;
+  color: #fff;
+}
+.headpara {
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #007bff;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-top: 5px;
+  background-color: #2d4a8d70; /* Darker background for inputs */
+  color: #ffffffd9; /* White text for contrast */
+}
+
+textarea {
+  height: 150px;
+  resize: vertical;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+  border-color: #fff;
+  outline: none;
+  background-color: #3a5ea593; /* Slightly lighter background on focus */
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 30px;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .form {
+    padding: 15px;
+  }
+
+  .title {
+    font-size: 28px;
+  }
+}
