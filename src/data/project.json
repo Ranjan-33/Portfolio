@@ -1,9 +1,17 @@
 [
   {
+    "title": "JAT Website",
+    "imageSrc": "project/jat1.png",
+    "description": "Jai Ambay Tarpaulin is a responsive website showcasing products and services, featuring an admin panel and secure email notifications for efficient workflows.",
+    "skills": ["React", "Vite", "Tailwind CSS", "Spring Boot", "AWS", "SEO"],
+    "demo": "https://jaiambaytarpaulin.com",
+    "source": "https://github.com/Ranjan-33"
+  },
+  {
     "title": "Expria-Gemini",
     "imageSrc": "project/expria-g.png",
-    "description": "Expria-Gemini is a replica of the Gemini platform, designed to emulate its core features and enhance user interaction and functionalit.",
-    "skills": ["React", "Gemini API"],
+    "description": "Expria-Gemini is a replica of the Gemini platform, designed to emulate its core features and enhance user interaction and functionalit where we can get the prompt and an expria will get you the ans .",
+    "skills": ["React", "Gemini API", "Tailwind CSS", "Axios"],
     "demo": "https://www.example.com",
     "source": "https://github.com/Ranjan-33/Expria-Gemini"
   },

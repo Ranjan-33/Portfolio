@@ -29,7 +29,7 @@ const Hero = () => {
 
         <a
           href={Resume}
-          download="Ranjan_Resume.pdf"
+          download="RanjanResume_V3.pdf"
           className={styles.contactBtn}
         >
           Download Resume
